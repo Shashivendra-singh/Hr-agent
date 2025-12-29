@@ -39,9 +39,6 @@ load_dotenv()
 def main():
     print("Welcome to the HR Policy Chatbot!")
     print("Type 'exit' or 'quit' to stop.\n")
-    
-    # Simple interaction loop using generate_content (if supported) or similar
-    # Since the user primarily uses adk web, this is a fallback reference.
     print("Agent is ready for requests via ADK Web.")
 
 if __name__ == "__main__":
